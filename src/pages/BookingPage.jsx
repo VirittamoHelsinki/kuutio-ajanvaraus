@@ -26,6 +26,7 @@ const BookingPage = () => {
   const [newBooking, setNewBooking] = useState(false);
   const [topic, setTopic] = useState("");
   const [selectedTime, setSelectedTime] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(null);
   const [bookings, setBookings] = useState(initTimes());
   const [showConfirmWindow, setShowConfirmWindow] = useState(false);
   const [showThanksWindow, setShowThanksWindow] = useState(false);
@@ -112,6 +113,7 @@ const BookingPage = () => {
                       onClick={() => {
                         if (!disabled) {
                           setSelectedTime(booking.time);
+                          setSelectedIndex(index);
                           setNewBooking(true);
                         }
                       }}
