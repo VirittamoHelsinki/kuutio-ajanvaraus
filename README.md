@@ -11,7 +11,6 @@ The user can view the bookings made and delete them as needed. The admin user ca
 
 # How to run the project
 
-1. Clone the project from https://github.com/VirittamoHelsinki/tyoaikakirjaus.git
+1. Clone the project from https://github.com/VirittamoHelsinki/kuutio-ajanvaraus.git
 2. Run "npm install"
-3. Copy your own Firebase config settings from your own Firebase project and replace settings in src/firebase/firebase.js file
-4. Start the project "npm run dev"
+3. Start the project "npm run dev"
