@@ -5,7 +5,7 @@ The user can book a conference room by selecting the time of day and stating the
 
 <img src="public/kuutio_booking.png" alt="drawing" width="66%"/>
 
-The user can view the bookings made and delete them as needed. The admin user can view and delete all bookings.
+The user can view own bookings and delete them as needed. The admin user can view and delete all bookings.
 
 <img src="public/kuutio_manage.png" alt="drawing" width="66%"/>
 
