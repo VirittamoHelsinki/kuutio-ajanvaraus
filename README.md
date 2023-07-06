@@ -9,6 +9,9 @@ The user can view the bookings made and delete them as needed. The admin user ca
 
 <img src="public/kuutio_manage.png" alt="drawing" width="66%"/>
 
+# Authentication
+The application is intended for use by Virittämö Helsinki only and the user must log in with the Virittämö Helsinki's email address. The register/sign-in system is made using Google Authentication service.
+
 # How to run the project
 
 1. Clone the project from https://github.com/VirittamoHelsinki/kuutio-ajanvaraus.git
